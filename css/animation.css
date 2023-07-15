@@ -1,0 +1,35 @@
+@-webkit-keyframes loading-page {
+  0% {
+    opacity: 0%;
+  }
+  22% {
+    opacity: 22%;
+  }
+  55% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes loading-page {
+  0% {
+    opacity: 0%;
+  }
+  22% {
+    opacity: 22%;
+  }
+  55% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+
+body {
+  -webkit-animation: loading-page ease-out 2s;
+   animation: loading-page ease-out 2s;
+}
